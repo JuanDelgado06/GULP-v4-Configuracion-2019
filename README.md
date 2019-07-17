@@ -1,4 +1,5 @@
 # Configuracion de GULP en su Version 4.0.2 (Actualizado al 2019)
+## Puedes utilizar este "proyecto" con total libertad
 Aqui esta la configuracion que debes de seguir para poder utilizar GULP en su version 4.0.2 sin ningun inconveniente.
 
 En esta ocasion estoy utilizando estos plugins de Gulp:
