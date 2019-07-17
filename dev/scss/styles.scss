@@ -3,6 +3,13 @@ $color-h: rgb(223, 223, 223);
 
 body {
     background: $color;
+}
+
+.contenedor {
+    margin: 0 auto;
+    width: 99%;
+    max-width: 1000px;
+    background: $color;
     color: #000;
     display: flex;
     flex-direction: column;
@@ -10,6 +17,7 @@ body {
 
     h1 {
         margin: 0;
+        margin-top: 10px;
         font-size: 2rem;
         color: $color-h;
         font-style: italic;
@@ -19,7 +27,8 @@ body {
 
     h2 {
         margin: 0;
-        font-size: 3em;
+        margin-bottom: 20px;
+        font-size: 1.8em;
         border: 2px solid $color;
         flex: 1;
         color: $color-h;
@@ -36,17 +45,22 @@ nav {
         justify-content: center;
 
         li {
+            border: 3px solid $color-h;
+            padding: 5px;
             list-style: none;
             margin-right: 10px;
+
+            &:hover {
+                opacity: .9;
+                padding: 7px;
+            }
             
             a {
                 text-decoration: none;
                 color: $color-h;
                 font-size: 1.5em;
 
-                &:hover {
-                    text-decoration: underline;
-                }
+                
             }
         }
     }
