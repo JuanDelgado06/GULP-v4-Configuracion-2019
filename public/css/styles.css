@@ -1,0 +1,93 @@
+/* line 4, dev/scss/styles.scss */
+body {
+  background: #056159;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+/* line 11, dev/scss/styles.scss */
+body h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #dfdfdf;
+  font-style: italic;
+  text-align: center;
+  -webkit-box-flex: 2;
+  -ms-flex: 2;
+  flex: 2;
+}
+
+/* line 20, dev/scss/styles.scss */
+body h2 {
+  margin: 0;
+  font-size: 3em;
+  border: 2px solid #056159;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  color: #dfdfdf;
+}
+
+/* line 28, dev/scss/styles.scss */
+body p {
+  color: #dfdfdf;
+}
+
+/* line 34, dev/scss/styles.scss */
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* line 38, dev/scss/styles.scss */
+nav ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+/* line 42, dev/scss/styles.scss */
+nav ul li a {
+  text-decoration: none;
+  color: #dfdfdf;
+  font-size: 1.5em;
+}
+
+/* line 47, dev/scss/styles.scss */
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* line 54, dev/scss/styles.scss */
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+/* line 59, dev/scss/styles.scss */
+.list__item {
+  color: #dfdfdf;
+  font-size: 1.5em;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 100%;
+  flex: 0 1 100%;
+}
